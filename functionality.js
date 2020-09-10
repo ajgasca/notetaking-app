@@ -11,8 +11,8 @@ window.onload = function() {
   }
 
   document.getElementById('about').onclick = function() {
-    document.getElementById('container').innerHTML = "";
-    document.getElementById('controls').innerHTML = "";
+    document.getElementById('container').innerHTML = " ";
+    document.getElementById('controls').innerHTML = " ";
     document.getElementById('menu').className = 'hiddenmenu';
     var container = document.getElementById('container');
     var p = document.createElement('p');
